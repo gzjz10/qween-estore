@@ -4,7 +4,7 @@ def path(n): return re.search(r' d="([^"]*)"', (here/'icons'/f'{n}.svg').read_te
 
 # ======= عدّل هنا =======
 HANDLE = "@Maqadeena"
-HOURS  = "نستقبلكم يومياً من ٨ صباحاً حتى ١٢ منتصف الليل<br>الجمعة: من بعد صلاة الجمعة حتى ١٢ منتصف الليل"
+HOURS  = "نستقبلكم يومياً من ٨ صباحاً حتى ١٢ منتصف الليل، والجمعة من بعد الصلاة حتى ١٢ الليل"
 GREEN  = "#245731"
 # ========================
 
@@ -22,7 +22,7 @@ body{{width:1080px;height:1920px;background:var(--bg);font-family:'Tajawal',sans
 .ic{{width:44px;height:44px;display:grid;place-items:center}}
 .ic svg{{width:44px;height:44px;fill:var(--g)}}
 .handle{{display:inline-block;font-size:34px;font-weight:800;color:var(--g);direction:ltr;font-family:'Tajawal',sans-serif;letter-spacing:1px}}
-.hours{{margin:10px auto 0;display:inline-block;font-size:24px;font-weight:700;color:#fff;background:var(--g2);padding:8px 26px;border-radius:22px;line-height:1.55}}
+.hours{{margin:10px auto 0;display:inline-block;font-size:22px;font-weight:700;color:#fff;background:var(--g2);padding:8px 24px;border-radius:999px;white-space:nowrap}}
 </style></head><body>
 <img class="logo" src="logo.webp" alt="مقاضينا">
 <div class="content"></div>
